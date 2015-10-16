@@ -62,6 +62,8 @@ echo $form->field($model, 'filePath')->widget(
 ### ElFinderWidget
 
 ```php
+use zxbodya\yii2\elfinder\ElFinderWidget;
+
 echo ElFinderWidget::widget(
     ['connectorRoute' => 'el-finder/connector',]
 )
